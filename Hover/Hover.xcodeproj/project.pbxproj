@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF04F7232150E6610070C0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04F7222150E6610070C0C9 /* AppDelegate.swift */; };
+		CF04F7252150E6610070C0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04F7242150E6610070C0C9 /* ViewController.swift */; };
+		CF04F7282150E6610070C0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF04F7262150E6610070C0C9 /* Main.storyboard */; };
+		CF04F72A2150E6630070C0C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF04F7292150E6630070C0C9 /* Assets.xcassets */; };
+		CF04F72D2150E6630070C0C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF04F72B2150E6630070C0C9 /* LaunchScreen.storyboard */; };
+		CF04F7382150E6630070C0C9 /* HoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04F7372150E6630070C0C9 /* HoverTests.swift */; };
+		CF04F7432150E6630070C0C9 /* HoverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF04F7422150E6630070C0C9 /* HoverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF04F7342150E6630070C0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF04F7172150E6610070C0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF04F71E2150E6610070C0C9;
+			remoteInfo = Hover;
+		};
+		CF04F73F2150E6630070C0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF04F7172150E6610070C0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF04F71E2150E6610070C0C9;
+			remoteInfo = Hover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF04F71F2150E6610070C0C9 /* Hover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04F7222150E6610070C0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF04F7242150E6610070C0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF04F7272150E6610070C0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF04F7292150E6630070C0C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF04F72C2150E6630070C0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF04F72E2150E6630070C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF04F7332150E6630070C0C9 /* HoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04F7372150E6630070C0C9 /* HoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverTests.swift; sourceTree = "<group>"; };
+		CF04F7392150E6630070C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF04F73E2150E6630070C0C9 /* HoverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF04F7422150E6630070C0C9 /* HoverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverUITests.swift; sourceTree = "<group>"; };
+		CF04F7442150E6630070C0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF04F71C2150E6610070C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04F7302150E6630070C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04F73B2150E6630070C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF04F7162150E6610070C0C9 = {
+			isa = PBXGroup;
+			children = (
+				CF04F7212150E6610070C0C9 /* Hover */,
+				CF04F7362150E6630070C0C9 /* HoverTests */,
+				CF04F7412150E6630070C0C9 /* HoverUITests */,
+				CF04F7202150E6610070C0C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF04F7202150E6610070C0C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF04F71F2150E6610070C0C9 /* Hover.app */,
+				CF04F7332150E6630070C0C9 /* HoverTests.xctest */,
+				CF04F73E2150E6630070C0C9 /* HoverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF04F7212150E6610070C0C9 /* Hover */ = {
+			isa = PBXGroup;
+			children = (
+				CF04F7222150E6610070C0C9 /* AppDelegate.swift */,
+				CF04F7242150E6610070C0C9 /* ViewController.swift */,
+				CF04F7262150E6610070C0C9 /* Main.storyboard */,
+				CF04F7292150E6630070C0C9 /* Assets.xcassets */,
+				CF04F72B2150E6630070C0C9 /* LaunchScreen.storyboard */,
+				CF04F72E2150E6630070C0C9 /* Info.plist */,
+			);
+			path = Hover;
+			sourceTree = "<group>";
+		};
+		CF04F7362150E6630070C0C9 /* HoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF04F7372150E6630070C0C9 /* HoverTests.swift */,
+				CF04F7392150E6630070C0C9 /* Info.plist */,
+			);
+			path = HoverTests;
+			sourceTree = "<group>";
+		};
+		CF04F7412150E6630070C0C9 /* HoverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF04F7422150E6630070C0C9 /* HoverUITests.swift */,
+				CF04F7442150E6630070C0C9 /* Info.plist */,
+			);
+			path = HoverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF04F71E2150E6610070C0C9 /* Hover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF04F7472150E6630070C0C9 /* Build configuration list for PBXNativeTarget "Hover" */;
+			buildPhases = (
+				CF04F71B2150E6610070C0C9 /* Sources */,
+				CF04F71C2150E6610070C0C9 /* Frameworks */,
+				CF04F71D2150E6610070C0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hover;
+			productName = Hover;
+			productReference = CF04F71F2150E6610070C0C9 /* Hover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF04F7322150E6630070C0C9 /* HoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF04F74A2150E6630070C0C9 /* Build configuration list for PBXNativeTarget "HoverTests" */;
+			buildPhases = (
+				CF04F72F2150E6630070C0C9 /* Sources */,
+				CF04F7302150E6630070C0C9 /* Frameworks */,
+				CF04F7312150E6630070C0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF04F7352150E6630070C0C9 /* PBXTargetDependency */,
+			);
+			name = HoverTests;
+			productName = HoverTests;
+			productReference = CF04F7332150E6630070C0C9 /* HoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF04F73D2150E6630070C0C9 /* HoverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF04F74D2150E6630070C0C9 /* Build configuration list for PBXNativeTarget "HoverUITests" */;
+			buildPhases = (
+				CF04F73A2150E6630070C0C9 /* Sources */,
+				CF04F73B2150E6630070C0C9 /* Frameworks */,
+				CF04F73C2150E6630070C0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF04F7402150E6630070C0C9 /* PBXTargetDependency */,
+			);
+			name = HoverUITests;
+			productName = HoverUITests;
+			productReference = CF04F73E2150E6630070C0C9 /* HoverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF04F7172150E6610070C0C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "zj-db1140";
+				TargetAttributes = {
+					CF04F71E2150E6610070C0C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CF04F7322150E6630070C0C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF04F71E2150E6610070C0C9;
+					};
+					CF04F73D2150E6630070C0C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF04F71E2150E6610070C0C9;
+					};
+				};
+			};
+			buildConfigurationList = CF04F71A2150E6610070C0C9 /* Build configuration list for PBXProject "Hover" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF04F7162150E6610070C0C9;
+			productRefGroup = CF04F7202150E6610070C0C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF04F71E2150E6610070C0C9 /* Hover */,
+				CF04F7322150E6630070C0C9 /* HoverTests */,
+				CF04F73D2150E6630070C0C9 /* HoverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF04F71D2150E6610070C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04F72D2150E6630070C0C9 /* LaunchScreen.storyboard in Resources */,
+				CF04F72A2150E6630070C0C9 /* Assets.xcassets in Resources */,
+				CF04F7282150E6610070C0C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04F7312150E6630070C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04F73C2150E6630070C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF04F71B2150E6610070C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04F7252150E6610070C0C9 /* ViewController.swift in Sources */,
+				CF04F7232150E6610070C0C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04F72F2150E6630070C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04F7382150E6630070C0C9 /* HoverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF04F73A2150E6630070C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF04F7432150E6630070C0C9 /* HoverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF04F7352150E6630070C0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF04F71E2150E6610070C0C9 /* Hover */;
+			targetProxy = CF04F7342150E6630070C0C9 /* PBXContainerItemProxy */;
+		};
+		CF04F7402150E6630070C0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF04F71E2150E6610070C0C9 /* Hover */;
+			targetProxy = CF04F73F2150E6630070C0C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF04F7262150E6610070C0C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF04F7272150E6610070C0C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF04F72B2150E6630070C0C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF04F72C2150E6630070C0C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF04F7452150E6630070C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF04F7462150E6630070C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF04F7482150E6630070C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.Hover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF04F7492150E6630070C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hover/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.Hover;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF04F74B2150E6630070C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.HoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hover.app/Hover";
+			};
+			name = Debug;
+		};
+		CF04F74C2150E6630070C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.HoverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hover.app/Hover";
+			};
+			name = Release;
+		};
+		CF04F74E2150E6630070C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.HoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hover;
+			};
+			name = Debug;
+		};
+		CF04F74F2150E6630070C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HoverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = d.HoverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hover;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF04F71A2150E6610070C0C9 /* Build configuration list for PBXProject "Hover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04F7452150E6630070C0C9 /* Debug */,
+				CF04F7462150E6630070C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF04F7472150E6630070C0C9 /* Build configuration list for PBXNativeTarget "Hover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04F7482150E6630070C0C9 /* Debug */,
+				CF04F7492150E6630070C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF04F74A2150E6630070C0C9 /* Build configuration list for PBXNativeTarget "HoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04F74B2150E6630070C0C9 /* Debug */,
+				CF04F74C2150E6630070C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF04F74D2150E6630070C0C9 /* Build configuration list for PBXNativeTarget "HoverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF04F74E2150E6630070C0C9 /* Debug */,
+				CF04F74F2150E6630070C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF04F7172150E6610070C0C9 /* Project object */;
+}
