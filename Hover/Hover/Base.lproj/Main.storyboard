@@ -23,6 +23,7 @@
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q7B-zx-rLA" userLabel="TopImage View">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
+                                        <color key="backgroundColor" red="0.86120351250000005" green="0.52944448219999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="144" id="Oqj-oU-ege"/>
                                         </constraints>
@@ -36,6 +37,7 @@
                                     </view>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bcG-OT-89t" userLabel="BottomImage View">
                                         <rect key="frame" x="0.0" y="188" width="375" height="800"/>
+                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="800" id="e13-O7-HxW"/>
                                         </constraints>
@@ -50,9 +52,18 @@
                                     <constraint firstItem="bcG-OT-89t" firstAttribute="top" secondItem="Y8U-cA-jC1" secondAttribute="bottom" id="Xkx-u6-moa"/>
                                     <constraint firstAttribute="trailing" secondItem="bcG-OT-89t" secondAttribute="trailing" id="Z5r-vb-TyS"/>
                                     <constraint firstItem="Y8U-cA-jC1" firstAttribute="leading" secondItem="Yie-qh-9B9" secondAttribute="leading" id="bNC-E5-eru"/>
+                                    <constraint firstItem="bcG-OT-89t" firstAttribute="top" secondItem="q7B-zx-rLA" secondAttribute="bottom" id="hB0-qF-YkN"/>
                                     <constraint firstAttribute="bottom" secondItem="bcG-OT-89t" secondAttribute="bottom" id="jDo-x0-1Z0"/>
                                     <constraint firstItem="Y8U-cA-jC1" firstAttribute="top" secondItem="q7B-zx-rLA" secondAttribute="bottom" id="zir-zb-cyC"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="hB0-qF-YkN"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="mmA-1I-V8x"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,6 +78,7 @@
                     </view>
                     <connections>
                         <outlet property="bottomImageView" destination="bcG-OT-89t" id="tFT-1Z-jOp"/>
+                        <outlet property="hiddenConstraint" destination="hB0-qF-YkN" id="baI-lr-YU2"/>
                         <outlet property="middleView" destination="Y8U-cA-jC1" id="4By-eH-4yO"/>
                         <outlet property="topImageView" destination="q7B-zx-rLA" id="h0R-PE-NlF"/>
                         <outlet property="viewBottomConstraint" destination="Xkx-u6-moa" id="leF-Xz-fxw"/>
